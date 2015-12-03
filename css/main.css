@@ -1,31 +1,78 @@
 *{
-	outline:1px solid red;
+	outline:1px ;
 }
 
 body,html{
 	height:100%;/*
 	font-family:"Open-Sans","Dosis";*/
-	font-size: 16px;
+
 	margin:0px;
 	padding:0px;
 
 }
-.lala{
-	position:absolute;
-	top:0;
+
+/* nav */
+.navbar{
+	/*position:absolute;
+	top:0;*/
+	height:76px;
+	width:100%;
+	padding-top: 7px;
+	background: linear-gradient(to right,#08121b,#080a18);
 }
+@media (min-width: 569px){
+	body,html{
+			font-size: 16px;
+	}
+	.nav-bar{
+		padding-top: 18px;
+}
+	.nav-bar ul{
+		padding-top: 6px;
+	}
+
+}
+@media (max-width: 568px){
+	body,html{
+			font-size: 14px;
+	}
+	.nav-bar{
+		padding-top: 6px;
+}
+	.nav-bar ul{
+		padding-top: 4px;
+	}
+}
+.nav-bar li{
+	padding-left: 15px;
+
+	padding-left: 15px;
+}
+.nav-bar i{
+	margin-right: 8px;	
+}
+nav a{
+	font-weight: bolder;
+}
+/*shadow-nav*/
+.shadow-nav{
+	position:fixed;
+	top:76px;
+	width:100%;
+	height:15px;
+	z-index: 100;	
+	background: linear-gradient(#08121b,rgba(8,18,27,0.35),rgba(8,18,27,0));
+}
+
+
+/*home*/
 #home{
-	background: url(../img/background/hero.jpg) no-repeat left top ;
+	background: url(../img/background/hero.jpg) no-repeat left 	25px ;
 	background-size:cover;
 	
 	height:100%;
 }
 
-.content{	
-	background-color:rgba(0,0,0,0.5);
-	width:100%;
-	height:100%;	 
-}
 #home .container  *{
 	margin-bottom: 4%;
 	
@@ -39,10 +86,12 @@ body,html{
 	padding: 10% 0;
 }
 
-
+/*features*/ 
 #more_features .col-xs-1{
 	padding-left: 7px;
 }
+
+/*portfolio*/
 #portfolio a{
 	color:#444;
 	font-weight: bold;
@@ -57,7 +106,7 @@ body,html{
 .but-gray a:hover{
 	color:red;
 }
-
+/*Sect call-to-action*/
 #sect{
 	background-image:url("../img/background/city.jpg");
 	height:500px;
@@ -70,7 +119,7 @@ body,html{
 
 /*Pricing*/
 .lh-60{
-	line-height: 6	0px;
+	line-height: 60px;
 
 }
 .lh-80{
@@ -80,29 +129,50 @@ body,html{
 .lh-100{
 	line-height: 120px;
 }
-#pricing .thumbnail{
-	margin:15px;
+.thumbnail{
+	padding-bottom: 0px;
+}
+
+/*
+#pricing .list-group-item{
+	border-left:0;
+	border-top:0;
+	border-right: 
+}*/	
+
+/*What our customers say*/
+#say{
+	height:500px;
+}
+#say img{
+	width:180px;
 }
 
 /*contact*/
 #contact{
-	height:100%;
 
   align-items: center;
 	background: url(../img/background/contactus.jpg) left bottom;
+	background-size: cover;
 }
+#contact textarea{
+	height:180px;
+}
+#contact .col-md-6{
+	padding-left: 15px;
+	position: 
+}
+#contact button{
+	width:200px !important;
+}
+
 /*follow*/
 #follow{
-	height: 500px;
-	position: relative;
+	height: 350px;
 
 }
-#follow h2{
-	positon:relative;
-	top:300px;
-}
 #follow ul,#follow 	p, #follow h2{
-	margin-top:30px;
+	margin-top:25px;
 	margin-bottom: 30px;
 
 }
@@ -110,3 +180,12 @@ body,html{
 	color:#444;
 	font-size: 300%;
 }
+
+/*height 100%*/
+
+@media (min-width: 992px){
+	#contact, #features, #pricing{
+		height:100%;
+	}
+}
+

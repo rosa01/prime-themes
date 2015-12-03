@@ -62,7 +62,8 @@
 }
 
 .text-white{
-	color: #fafafa;
+	color: #f0f0f0 !important;
+	opacity:0.95;
 }
 .text-gray{
 	color: #444;
@@ -89,12 +90,12 @@
 	text-decoration: none;
 }
 .bg-gray{
-	background-color: #e8edef;
+	background-color: #f4f4f4;
 
 }
 .bg-dgray{
 	background-color: #32383f;
-	color:#fefefe;
+	color:#fefefe;	
 }
 
 .bg-ddgray{
@@ -114,4 +115,8 @@
 
 .pull-right {
 	float: right;
+}
+
+.mb-40{
+	margin-bottom: 40px;
 }
