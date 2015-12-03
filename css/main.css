@@ -1,0 +1,112 @@
+*{
+	outline:1px solid red;
+}
+
+body,html{
+	height:100%;/*
+	font-family:"Open-Sans","Dosis";*/
+	font-size: 16px;
+	margin:0px;
+	padding:0px;
+
+}
+.lala{
+	position:absolute;
+	top:0;
+}
+#home{
+	background: url(../img/background/hero.jpg) no-repeat left top ;
+	background-size:cover;
+	
+	height:100%;
+}
+
+.content{	
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;	 
+}
+#home .container  *{
+	margin-bottom: 4%;
+	
+}
+.button-h{
+	display:inline-block;
+	margin:5px;
+	font-size: 150%;
+}
+.button-h a{
+	padding: 10% 0;
+}
+
+
+#more_features .col-xs-1{
+	padding-left: 7px;
+}
+#portfolio a{
+	color:#444;
+	font-weight: bold;
+}
+
+#portfolio img{
+	margin:5px 1%;
+	max-width: 98%;
+	width:98%;
+}
+
+.but-gray a:hover{
+	color:red;
+}
+
+#sect{
+	background-image:url("../img/background/city.jpg");
+	height:500px;
+}
+#sect h2{line-height: 200%}
+
+.lh15{
+	line-height: 200%;
+}
+
+/*Pricing*/
+.lh-60{
+	line-height: 6	0px;
+
+}
+.lh-80{
+	line-height: 100px;
+
+}
+.lh-100{
+	line-height: 120px;
+}
+#pricing .thumbnail{
+	margin:15px;
+}
+
+/*contact*/
+#contact{
+	height:100%;
+
+  align-items: center;
+	background: url(../img/background/contactus.jpg) left bottom;
+}
+/*follow*/
+#follow{
+	height: 500px;
+	position: relative;
+
+}
+#follow h2{
+	positon:relative;
+	top:300px;
+}
+#follow ul,#follow 	p, #follow h2{
+	margin-top:30px;
+	margin-bottom: 30px;
+
+}
+#follow li a{
+	color:#444;
+	font-size: 300%;
+}

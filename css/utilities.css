@@ -1,14 +1,14 @@
 /* Font weight */
-strong { 
-	font-weight: 600; 
-}
+
 .f-600 {
 	font-weight: 600;
 }
 .f-400 {
 	font-weight: 400;
 }
-
+.fw{
+	font-weight: lighter !important;
+}
 /* Paddings */
 .pd-0{
 	padding: 0;
@@ -19,7 +19,11 @@ strong {
 .pd-10 {
 	padding: 10%;
 }
-
+/*
+.plr-12{
+	padding-left: 12% !important;
+	padding-right: 12% !important;
+}*/
 .pt-0 {
 	padding-top: 0%;
 }
@@ -58,14 +62,23 @@ strong {
 }
 
 .text-white{
-	color: white;
+	color: #fafafa;
 }
 .text-gray{
-	color: #888;
+	color: #444;
 }
-
+.text-gray2{
+	color:#888888;
+}
+.text-gray3{
+	color:#98a0a8 !important;
+}
 .text-green{
  	color: #0dc0c0;
+}
+
+.text-dgreen{
+ 	color: #009ca8;
 }
 
 .active {
@@ -76,13 +89,24 @@ strong {
 	text-decoration: none;
 }
 .bg-gray{
-	background-color: rgb(244, 244, 244);
+	background-color: #e8edef;
+
+}
+.bg-dgray{
+	background-color: #32383f;
+	color:#fefefe;
+}
+
+.bg-ddgray{
+	background-color: #24282e;
+
 }
 .bg-img-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 
 .pull-left {
 	float: left;

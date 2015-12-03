@@ -1,0 +1,46 @@
+.vertical-center{
+	display: flex;
+  align-items: center;
+}
+.fs-35{
+	font-size: 350%;
+}
+.fs-20{
+	font-size:200%;/*40*/
+}
+.fs-15{
+	font-size: 150%;
+}
+
+
+.centered-pills { text-align:center; }
+.centered-pills ul.nav.nav-pills, .centered-pills ul.nav.nav-tabs { display:inline-block; }
+.centered-pills ul.nav.nav-pills li, .centered-pills ul.nav.nav-tabs li { 
+	display:inline; 
+	background-color: white;
+	margin-right: 5px;	
+}
+.active-bg{
+	background-color: #0dc0c0 !important;
+	color:white !important;
+}
+.buut-gray{margin:10px 0;}
+.buut-gray a{
+	text-decoration: none;
+	text-color:white ;
+padding: 10px 10px;
+background-color: #32383f;
+
+}
+.s{ /*sections*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.pd1510{
+	padding:20px 15px;
+}
+
+
+
+
